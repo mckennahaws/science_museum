@@ -1,0 +1,27 @@
+
+    header, nav, main, footer {
+        max-width: 75rem;
+        margin:auto;
+    }
+    
+    
+    
+    nav ul {padding-left: 2%;}
+    nav li {width:auto;}
+    nav a {padding: .5rem 1rem;}
+    
+    main figure.catphoto {
+        float: right; 
+        width: 33%; 
+        margin-left: 2%;
+        padding-bottom: .5rem;
+    }
+
+    header h2{
+        margin: 0; 
+        font-size: 1.2rem; 
+        font-weight: normal;
+    }
+
+
+    div.news {column-count: 3;}
