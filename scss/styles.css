@@ -408,7 +408,7 @@ body {
 /*header*/
 header {
   padding: 1rem 2%;
-  background-color: #86c096; }
+  background-color: #ffee00; }
 
 header img {
   float: left;
@@ -422,23 +422,24 @@ header h1 {
   header h2 {
     display: none; } }
 /*nav*/
+nav li {
+  float: left;
+  width: 25%; }
+
 div#navWrapper {
-  background-color: #555; }
+  background-color: #eee; }
 
 nav ul {
   margin: 0;
   padding: 0; }
 
 nav ul li {
-  list-style-type: none;
-  float: left;
-  width: 23%; }
+  list-style-type: none; }
 
 nav li.active {
   background-color: #333; }
 
 nav a {
-  display: block;
   padding: .5rem 0;
   /*44px min*/
   color: #eee;
@@ -453,7 +454,7 @@ main {
   min-height: 10rem; }
 
 main h1 {
-  color: #86c096;
+  color: #ffee00;
   margin: 0; }
 
 main figure.hero {
@@ -478,7 +479,7 @@ main figure.catphoto img {
 
 /*footer*/
 div#footerWrapper {
-  background-color: #86c096; }
+  background-color: #ffee00; }
 
 footer {
   text-align: center;
