@@ -26,16 +26,16 @@ header h1 {
 }
 @media (max-width: 559px){
     header h2{display: none;}
+    
 }
 /*nav*/
-div#navWrapper{background-color: #555;}
+nav li {float:  left; width: 25%;}
+div#navWrapper{background-color: #eee;}
 nav ul{margin:0; padding: 0;}
-nav ul li {list-style-type: none;
-float: left;
-width: 23%;}
+nav ul li {list-style-type: none;}
+
 nav li.active {background-color: #333}
 nav a {
-    display: block;
     padding: .5rem 0; /*44px min*/
     color: #eee;
     text-align: center;
